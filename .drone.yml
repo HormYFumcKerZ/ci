@@ -6,7 +6,7 @@ name : GiGaChaDCompiLation
 version: 69
 steps:
  - name: X69
-   image: aarunalr/aosp-build
+   image: nexgang/ubuntu:latest
    environment:
      GH_TOKEN:
        from_secret: GH_TOKEN

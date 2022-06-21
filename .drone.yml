@@ -1,0 +1,15 @@
+--- 
+clone: 
+  depth: 1
+kind: pipeline
+name : GiGaChaDCompiLation
+version: 69
+steps:
+ - name: X69
+   image: nexgang/ubuntu:focal
+   environment:
+     GH_TOKEN:
+       from_secret: GH_TOKEN
+   commands:
+     - git clone https://reaPeR1010:$GH_TOKEN@github.com/reaPeR1010/xd && cd xd
+     - bash X
